@@ -4,6 +4,8 @@ import ProductPages from "./Components/ProductPages"
 function App() {
   const [isDark, setIsDark] = useState(false)
 
+  
+
   return (
     <>
      <label>
@@ -16,7 +18,7 @@ function App() {
      </label>
      <hr />
       <ProductPages
-        referrerId="wizard_of_oz"
+        referrer="wizard_of_oz"
         productId={123}
         theme={isDark ? 'dark' : 'light'}
       />
